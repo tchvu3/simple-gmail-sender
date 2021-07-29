@@ -1,0 +1,32 @@
+{
+  "name": "simple-gmail-sender",
+  "version": "1.0.0",
+  "description": "Simple library to send emails using gmail",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "gmail",
+    "email",
+    "mail",
+    "sending"
+  ],
+  "author": {
+    "name": "Avihu Harush",
+    "email": "tchvu3@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "nodemailer": "^6.6.3",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
